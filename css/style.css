@@ -1,5 +1,52 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #083b4c;
+}
+
+.containerSquare {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: calc(88% / 7);
+    height: 100px;
+    background-color: #1389b2;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.multiple_3 {
+    background-color: #0bd6a1;
+}
+
+.multiple_5 {
+    background-color: #ffd166;
+}
+
+.multiple_15 {
+    background-color: #f0466f;
+}
+
+.multiple_3::before {
+    content:"fizz";
+}
+
+.multiple_5::before {
+    content:"buzz";
+}
+
+.multiple_15::before {
+    content: "fizzbuzz";
 }
