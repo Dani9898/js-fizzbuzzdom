@@ -7,9 +7,10 @@
 
 body {
     background-color: #083b4c;
+    text-align: center;
 }
 
-.containerSquare {
+#containerSquare {
     width: 80%;
     margin: auto;
     display: flex;
