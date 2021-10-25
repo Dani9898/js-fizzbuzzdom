@@ -10,6 +10,12 @@ body {
     text-align: center;
 }
 
+h1 {
+    color: #fff;
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
 #containerSquare {
     width: 80%;
     margin: auto;
