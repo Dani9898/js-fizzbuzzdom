@@ -40,7 +40,7 @@ body {
     background-color: #f0466f;
 }
 
-.multiple_3::before {
+/* .multiple_3::before {
     content:"fizz";
 }
 
@@ -50,4 +50,4 @@ body {
 
 .multiple_15::before {
     content: "fizzbuzz";
-}
+} */
